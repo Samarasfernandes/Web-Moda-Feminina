@@ -1,0 +1,20 @@
+.roupas {
+    margin-top: 40px;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.titulo_roupas {
+    /* margin-top: 200px; */
+    font-size: 1.5rem;
+    color: #962F5A;
+
+}
+
+.m {
+    margin-top: 50px;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #962F5A;
+}

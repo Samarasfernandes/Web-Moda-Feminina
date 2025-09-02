@@ -1,0 +1,33 @@
+/* HotCard.css */
+.hot-card .card-price {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-left: 258px;
+    margin-top: -65px;
+
+}
+
+.hot-card .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px solid #ffffff;
+    border-radius: 35px;
+    transition: filter 0.3s ease;
+    display: block;
+}
+
+.hot-card .card-title {
+    margin: 10px 0 0;
+    font-size: 1.4rem;
+    color: #ffffff;
+    display: flex;
+
+}
+
+.hot-card .card-price {
+    position: absolute;
+  
+}

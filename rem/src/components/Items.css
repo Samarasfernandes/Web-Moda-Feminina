@@ -1,0 +1,39 @@
+.items {
+    background-image: url("/fundo.png");
+
+    background-size: cover;
+    /* faz a imagem cobrir todo o espaço */
+    background-position: center;
+    /* centraliza */
+    height: 900px;
+padding: 20px;
+}
+
+.titulo_item {
+    padding: 70px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+}
+
+.m2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+@media (max-width: 480px) {
+    .items{
+        height: auto;
+        
+    }
+   .m2{
+padding-bottom: 25px;
+   } 
+   
+}

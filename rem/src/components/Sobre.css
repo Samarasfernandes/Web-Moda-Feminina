@@ -1,0 +1,87 @@
+.sobre {
+    padding: 200px 20px;
+    background-color: #962F5A;
+    text-align: center;
+}
+
+.f1 {
+    width: 400px;
+    display: flex;
+    align-items: end;
+    margin-top: -200px;
+    margin-left: 50px;
+    border-radius: 35px;
+}
+
+.f2 {
+    width: 320px;
+    border-radius: 35px;
+    margin-top: -140px;
+    margin-left: -550px;
+    position: relative;
+}
+
+.tsobre {
+    font-size: 13rem;
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    margin-left: 350px;
+}
+
+.ssobre {
+    color: aliceblue;
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 700px;
+    margin-top: -450px;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.7;
+    /* aumenta a altura da linha */
+
+}
+
+@media screen and (max-width: 768px) {
+    .f1 {
+        width: 200px;
+        border-radius: 35px;
+        margin-left: 20px;
+        margin-top: -170px;
+
+    }
+
+    .f2 {
+        width: 160px;
+        margin-left: 0;
+        border-radius: 35px;
+        margin-left: 100px;
+        margin-top: -55px;
+    }
+
+    .sobre {
+        flex: 1;
+    }
+
+    .tsobre {
+        margin-top: 150px;
+        position: absolute;
+        margin-left: 25px;
+        font-size: 11rem;
+    }
+
+    .ssobre {
+        margin-top: 180px;
+        text-align: left;
+        line-height: 1;
+        font-size: 1.3rem;
+        margin-left: -5px;
+    }
+}

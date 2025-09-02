@@ -1,0 +1,81 @@
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* ocupa 100% da altura da tela */
+    background-image: url("capa.png");
+    /* coloque o caminho da sua imagem */
+    background-size: cover;
+    /* faz a imagem cobrir todo o espaço */
+    background-position: center;
+    /* centraliza a imagem */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    /* centraliza vertical */
+    justify-content: center;
+    /* centraliza horizontal */
+    max-width: 100%;
+}
+
+.container_texts {
+    color: aliceblue;
+
+
+}
+
+.text1 {
+    font-family: "Lexend Exa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -55px;
+
+}
+
+.text2 {
+    font-size: 255px;
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.bmais {
+    padding: 10px 55px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #962F5A;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    margin-top: 370px;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.bmais:hover {
+    color: #ffffff;
+    background-color: #962F5A;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .text1 {
+        font-size: 25px;
+        margin-bottom: -26px;
+    }
+
+    .text2 {
+        font-size: 120px;
+    }
+
+    .home {
+        flex: 1;
+    }
+}
